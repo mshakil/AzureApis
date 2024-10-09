@@ -1,0 +1,9 @@
+api/bin
+api/obj
+packages/
+.vs
+apitests/bin
+apitests/obj
+apitests/.env
+TestResults
+apitests/App.config
