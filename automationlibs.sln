@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BC1D98E4-DA2F-4DF5-B070-BFC6D9F738F1}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		readme.md = readme.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apitests", "apitests\apitests.csproj", "{DA1C02F1-2C29-47B9-A86A-F49B05A0AF27}"

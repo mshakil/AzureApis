@@ -1,8 +1,11 @@
-﻿using DotNetEnv;
+﻿using api.Models.Request;
+using DotNetEnv;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,6 +20,11 @@ namespace apitests.WorkItemTest
         protected string ORGANIZATION_NAME { get; set; }
         protected string PROJECT_GUID { get; set; }
         protected string API_VERSION { get; set; }
+
+        protected CreateWorkItemRequest createWorkItemRequest;
+
+        protected RestResponse restResponse;
+        protected HttpStatusCode statusCode;
 
         [TestInitialize]
         public void LoadEnvironmentVariables()

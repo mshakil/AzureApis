@@ -19,10 +19,10 @@ namespace apitests.WorkItemTest
     [TestClass]
     public class CreateWorkItem : Hooks
     {
-        private CreateWorkItemRequest createWorkItemRequest;
+        //private CreateWorkItemRequest createWorkItemRequest;
 
-        private RestResponse restResponse;
-        private HttpStatusCode statusCode;
+        //private RestResponse restResponse;
+        //private HttpStatusCode statusCode;
 
         [TestMethod]
         public async Task CreateNewWorkItem()
